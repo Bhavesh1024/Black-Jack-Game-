@@ -1,7 +1,7 @@
 // Julie Araujo
 // julie0211@csu.fullerton.edu
 // Julie0211
-// partners: 
+// partners: Bhavesh
 
 #include <iostream>
 #include <string>
