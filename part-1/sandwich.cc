@@ -15,12 +15,12 @@ int main(int argc, char* argv[]) {
     return 1;
   }
 
-  std::string PROTEIN{arguments.at(1)};
-  std::string BREAD{arguments.at(2)};
-  std::string CONDIMENT{arguments.at(3)};
+  std::string protien{arguments.at(1)};
+  std::string bread{arguments.at(2)};
+  std::string condiment{arguments.at(3)};
 
-  std::cout << "Your order:\n A" << PROTEIN << " sandwich on " << BREAD
-            << " with " << CONDIMENT;
+  std::cout << "Your order:\n A " << protien << " sandwich on " << bread
+            << " with " << condiment;
 
   return 0;
 }
