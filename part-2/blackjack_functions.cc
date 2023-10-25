@@ -4,8 +4,8 @@
 // Partners: @Julie0211
 
 #include "blackjack_functions.h"
-#include <iostream>
 
+#include <iostream>
 bool IsAce(const std::string& card_name) {
   if (card_name == "A") {
     return true;
